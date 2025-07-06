@@ -14,8 +14,7 @@ import runners.UITestRunner;
 
 
 public class CleanUp {
-    /// ////////////////////////////////
-    /// //////////////////////////U made some changemmmmmmm and I also made change from repo
+    ///7:17//////////////////
     private static Logger log = LogManager.getLogger(CleanUp.class.getName());
     @Given("I want to clean up")
     public void i_want_to_clean_up() throws FindFailed, InterruptedException {
