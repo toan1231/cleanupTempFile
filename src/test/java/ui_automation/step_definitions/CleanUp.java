@@ -14,8 +14,7 @@ import runners.UITestRunner;
 
 
 public class CleanUp {
-    /// ////////////////////////////////
-    /// //////////////////////////I mde chang 6:49
+   ///I just want to fetch
     private static Logger log = LogManager.getLogger(CleanUp.class.getName());
     @Given("I want to clean up")
     public void i_want_to_clean_up() throws FindFailed, InterruptedException {
