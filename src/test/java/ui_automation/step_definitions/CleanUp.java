@@ -14,11 +14,12 @@ import runners.UITestRunner;
 
 
 public class CleanUp {
+    /// ////////////////////////////////
+    /// //////////////////////////U made some changemmmmmmm
     private static Logger log = LogManager.getLogger(CleanUp.class.getName());
     @Given("I want to clean up")
     public void i_want_to_clean_up() throws FindFailed, InterruptedException {
         log.info("thsi is error");
-
         Screen screen = new Screen();
         Pattern window = new Pattern("C:\\Users\\Chau.Thai\\Desktop\\snipping\\window.png");
         screen.click(window);
